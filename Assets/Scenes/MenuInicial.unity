@@ -913,7 +913,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 712815298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570729501}
+        m_TargetAssemblyTypeName: ButtonsMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &712815298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,8 +1144,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Come\xE7o da Investiga\xE7\xE3o"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5d99a7214c78f644db41c14d1ada0dc1, type: 2}
-  m_sharedMaterial: {fileID: 7914134912567645002, guid: 5d99a7214c78f644db41c14d1ada0dc1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b1e4e47bcf0649248a7fe75e94a25822, type: 2}
+  m_sharedMaterial: {fileID: 7914134912567645002, guid: b1e4e47bcf0649248a7fe75e94a25822, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2703,6 +2715,7 @@ GameObject:
   - component: {fileID: 1570729498}
   - component: {fileID: 1570729500}
   - component: {fileID: 1570729499}
+  - component: {fileID: 1570729501}
   m_Layer: 5
   m_Name: MenuPanel
   m_TagString: Untagged
@@ -2771,6 +2784,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570729497}
   m_CullTransparentMesh: 1
+--- !u!114 &1570729501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570729497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a472e4bf7deaf040b3591d170941feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1764173807
 GameObject:
   m_ObjectHideFlags: 0

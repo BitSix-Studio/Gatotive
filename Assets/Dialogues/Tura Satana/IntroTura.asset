@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: IntroTura
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: Boa noite, senhorita.
+  - nomePersonagem: ???
+    imgPersonagem: {fileID: 21300000, guid: 84dfdaee61f3b39429bfbe5fc9f6ea6e, type: 3}
+    txtSpeak: Boa noite.
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Poderia me dizer seu nome?
+  - nomePersonagem: TURA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: 'Tura, Tura Satana, senhor.
+
+      Eu trabalho no Hamstel.'
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: 'Soube que presenciou o acontecimento.
+
+      Se importaria de me dizer
+      o que viu?'
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "... N\xE3o me importo.\nEra de tarde, chegando perto de surgir a noite."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "O turno foi meio cansativo como bartender, ent\xE3o resolvi tirar
+      um intervalo, subindo no topo do pr\xE9dio para tomar um ar."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: "Eu vi uma pessoa desconhecida em cima do pr\xE9dio, um Husky Albino
+      alto, usando roupas de marca.\nE quando menos vi, ele estava caindo para fora
+      do pr\xE9dio..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Viu algo al\xE9m da queda?"
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: ...
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "... Senhorita Tura? H\xE1 algo de errado?"
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: "... N\xE3o vi nada."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "Tem certeza? Toda a informa\xE7\xE3o \xE9 necess\xE1ria para a resolu\xE7\xE3o
+      do caso."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Se puder me informar o que saiba...\nMesmo que pequena seja a informa\xE7\xE3o,
+      pode resultar em uma grande ajuda."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: '...
+
+      Olha, pode parecer ser loucura...'
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "Mas quando eu estava l\xE1 em cima, quando eu vi tudo acontecendo...
+      Eu acho que vi mais algu\xE9m."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: 'Tinha uma sombra a mais, e ela estava perto, muito perto do cara que
+      pulou...
+
+      Parecia que estava... o empurrando.'
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "Voc\xEA acha que foi um homic\xEDdio?"
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "Talvez... eu n\xE3o sei..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Lembra de como era o suspeito?
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "Eu lembro de como ele era, vividamente.\nMas agora que, provavelmente,
+      voc\xEA ir\xE1 me achar louca."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "Eu n\xE3o acharia.\nVoc\xEA ficaria surpresa com quantas loucuras
+      eu tenho que lidar por dia.\nConfie em mim."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: ... Era ele.
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Ele? Quem seria \u201Cele\u201D?"
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: 84dfdaee61f3b39429bfbe5fc9f6ea6e, type: 3}
+    txtSpeak: "Agora que voc\xEA ir\xE1 me achar louca.\nEle mesmo se empurrou, o
+      cachorro que vi empurrando-o..."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: "Era ele mesmo, as mesmas roupas, mesma fei\xE7\xE3o.\nO mesmo cheiro...\nComo
+      um clone.\nQuase como uma vis\xE3o distorcida, duas entidades com o mesmo rosto
+      se assassinando..."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: '...
+
+      Ah Deus, talvez eu esteja ficando louca...'
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: 84dfdaee61f3b39429bfbe5fc9f6ea6e, type: 3}
+    txtSpeak: "Eu trabalho em um bar, as vezes tenho que beber os coquet\xE9is que
+      preparo para experimentar a mistura...\nTalvez eu estivesse b\xEAbada..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "... N\xE3o acho que seja a possibilidade.\nA senhorita parece bem
+      s\xF3bria para mim."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Al\xE9m de que, tanto tempo trabalhando no mesmo ramo, se acostumaria
+      com o \xE1lcool."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: a580b988e134d754b9b3d619aca4f9f8, type: 3}
+    txtSpeak: ...
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Eu vou guardar a informa\xE7\xE3o que voc\xEA me deu com muito zelo.\nObrigado
+      pela ajuda, senhorita Tura."
+  - nomePersonagem: TURA SATANA
+    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    txtSpeak: "... N\xE3o h\xE1 de que..."

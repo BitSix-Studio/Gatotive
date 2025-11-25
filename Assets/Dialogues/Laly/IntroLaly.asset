@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: IntroLaly
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: Boa noite, policial Laly.
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da24fbb73de3eeb4e976ea5610ebff38, type: 3}
+    txtSpeak: "Boa noite detetive Kuro!\nFazia tempo que n\xE3o te via, se n\xE3o
+      fosse a situa\xE7\xE3o, eu ficaria bem feliz por te ver."
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "Est\xE1 aqui para a investiga\xE7\xE3o?"
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Sim.
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da24fbb73de3eeb4e976ea5610ebff38, type: 3}
+    txtSpeak: "\xD3timo!\nToda ajuda, \xE9 mais que bem vinda."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Acho que a senhora \xE9 a \xFAnica que pensa isso."
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da24fbb73de3eeb4e976ea5610ebff38, type: 3}
+    txtSpeak: Ora, besteira!
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "Kenai \xE9 dif\xEDcil de se ler, mas obviamente est\xE1 feliz com
+      sua presen\xE7a.\nEle \xE9 apenas orgulhoso demais para mostrar."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "... Esse corpo ao seu lado \xE9 o da v\xEDtima?"
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: 'Oh, sim.
+
+      Pobrezinho, parecia ser um homem bom, mas a vida consegue
+      ser cruel com alguns animais.'
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: "\xC9 triste que essa foi a \xFAnica solu\xE7\xE3o que ele encontrou
+      para achar paz..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Voc\xEA tamb\xE9m acha que se trata de um suic\xEDdio?"
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "\xC9 o que aparenta...\nMas claro, n\xE3o se pode julgar antes das
+      provas."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Correto.\nVoc\xEA j\xE1 fez a per\xEDcia do corpo?"
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: "N\xE3o com tanta exatid\xE3o, como n\xE3o sou dessa \xE1rea.\nMas
+      consegui identificar a causa da morte."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: 'Fui avisado...
+
+      Politraumatismo, correto?'
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "Exatamente.\nConsegui identificar algumas fraturas na coluna, al\xE9m
+      de hemorragias internas que devem ter ocorrido por causa da queda."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Achou algo inquietante sobre o corpo?
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: "H\xE1 alguns furos de agulha sobre a pele da v\xEDtima.\nQuase impercept\xEDveis,
+      mas pelo que parece, foram feitos recentemente."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "H\xE1 possibilidade de ser de um exame de sangue comum?"
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: "Foi o que passou pela a minha cabe\xE7a de primeira.\nMas h\xE1 muitos
+      furos e em lugares muito espec\xEDficos.\nParecem que foram feitos para estarem
+      escondidos."
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "A probabilidade de ser trabalho de uma cl\xEDnica \xE9 m\xEDnima.\nN\xE3o
+      que eu saiba de alguma cl\xEDnica que fa\xE7a esse tipo de coisa."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Algo mais?
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: 774daaeee276c5a41be9ff1e759351b4, type: 3}
+    txtSpeak: Tirando isso... Acho que mais nada.
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da321c319543e7c47b4a3c9ca29342a6, type: 3}
+    txtSpeak: "Mas voc\xEA pode pegar o par de luvas de l\xE1tex extra que eu trouxe.\nFique
+      \xE0 vontade para investigar o corpo!"
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Agrade\xE7o, senhora Laly."
+  - nomePersonagem: LALY
+    imgPersonagem: {fileID: 21300000, guid: da24fbb73de3eeb4e976ea5610ebff38, type: 3}
+    txtSpeak: Imagine, querido.

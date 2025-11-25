@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: PinAppear
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Agora sim!\nQuando tenho certeza das decis\xF5es que tomo, colocar
+      um alfinete no local \xE9 a melhor maneira de dizer que tudo est\xE1 certo."
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Preciso continuar com o trabalho, existem mais conex\xF5es entre esses
+      itens no quadro..."

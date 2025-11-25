@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: AkemiIntroduction
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Oi irm\xE3, tive uma noite dif\xEDcil..."
+  - nomePersonagem: AKEMI
+    imgPersonagem: {fileID: 21300000, guid: 23cd4efe5f7238c4592bb079acf34402, type: 3}
+    txtSpeak: O que aconteceu Kuro?
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "Um suic\xEDdio, eu acho..."
+  - nomePersonagem: AKEMI
+    imgPersonagem: {fileID: 21300000, guid: d461bfbe900513c459701ba699e7fe8f, type: 3}
+    txtSpeak: "Voc\xEA acha? Algo te incomoda?"
+  - nomePersonagem: KURO
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Sim, ainda penso que o caso n\xE3o foi finalizado e que possivelmente
+      foi omic\xEDdio, mas como provar isso?"
+  - nomePersonagem: AKEMI
+    imgPersonagem: {fileID: 21300000, guid: 227d22ed24977dd49b53666df6efb9d7, type: 3}
+    txtSpeak: "Olha, provar agora com a cabe\xE7a cheia vai ser dif\xEDcil, v\xE1
+      at\xE9 o quadro de suspeitos do seu escrit\xF3rio e organize seus pensamentos,
+      depois fale comigo se descobrir algo, ta bom maninho?"

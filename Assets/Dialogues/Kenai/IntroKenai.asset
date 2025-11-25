@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: IntroKenai
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Boa noite, policial Kenai.
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 85c4a0e46efa35b45a6c4a78c603bb9c, type: 3}
+    txtSpeak: "Ah, t\xE1 de brincadeira..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: Seu entusiasmo em me ver me comove...
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 85c4a0e46efa35b45a6c4a78c603bb9c, type: 3}
+    txtSpeak: "Porque voc\xEA sempre aparece nos mesmos casos que eu?"
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Eu apenas vou para aonde me chamam.
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: cb5f4e7057a6ca34f944c573e17b630d, type: 3}
+    txtSpeak: "Hah... Claro.\nParece que n\xE3o confiam na minha capacidade de resolver
+      uma dilig\xEAncia policial sozinho."
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: "Bem, de qualquer forma, j\xE1 que est\xE1 aqui...\nTente n\xE3o atrapalhar."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: ... Pode deixar.
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: Do que se trata o incidente de hoje?
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: "Pelo o que eu investiguei, parece que o ocorrido se trata de um autoc\xEDdio."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Quem \xE9 o indiv\xEDduo?"
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: Ace, 30 anos, trabalhava como pipoqueiro no cinema popular, aqui na
+      rua borbagato mesmo.
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Causa da morte?
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: cb5f4e7057a6ca34f944c573e17b630d, type: 3}
+    txtSpeak: "Politraumatismo, les\xF5es internas ap\xF3s saltar de um pr\xE9dio."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Faz muito tempo desde que ocorreu a morte?
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: Pelo o que aparenta... Desde o ocorrido, fazem pelo menos 3 horas.
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 85c4a0e46efa35b45a6c4a78c603bb9c, type: 3}
+    txtSpeak: "Aconteceu nesta tarde.\nMas fique \xE0 vontade para investigar."
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: "H\xE1 duas testemunhas que presenciaram o acontecimento, se sinta
+      livre para conversar com elas."
+  - nomePersonagem: KENAI
+    imgPersonagem: {fileID: 21300000, guid: 783fb83317d0b63438b810c670abeb88, type: 3}
+    txtSpeak: "Qualquer d\xFAvida, apenas venha at\xE9 mim, afinal \xE9 o meu trabalho
+      ainda..."

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ae79541061fc542b877bd387e6995a, type: 3}
+  m_Name: IntroIsa
+  m_EditorClassIdentifier: 
+  dialogues:
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: Boa noite, senhorita.
+  - nomePersonagem: ???
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: Boa noite, detetive...?
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: 'Pode me chamar de Gatotive.
+
+      E seu nome senhorita, qual seria?'
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 3023398c02f7f044ba512d03f7f83b41, type: 3}
+    txtSpeak: "Me chamo Isa Gurgel, sou dona da loja de c\xE3oveni\xEAncia que fica
+      aqui do lado..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: Soube que presenciou o acontecimento.
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: d6b3fb5ab91654644a36d1e48d1a194e, type: 3}
+    txtSpeak: Sim...
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: Se importa de falar o que viu para mim?
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: d6b3fb5ab91654644a36d1e48d1a194e, type: 3}
+    txtSpeak: "Est\xE1 tudo bem, mesmo que me deixe com um pouco de mal-estar por
+      ter que relembrar a cena...\nMas entendo que \xE9 necess\xE1rio."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Vai ser a \xFAltima vez, n\xE3o se preocupe."
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: ... Era de tarde, eu estava saindo na rua para pegar uma encomenda
+      para minha loja.
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: "O estoque estava acabando, ent\xE3o chamei o caminh\xE3o para vir
+      hoje trazer mais mantimentos...\nMas quando o caminh\xE3o saiu, e eu estava
+      levando algumas caixas para dentro da loja... Eu vi..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: Tome seu tempo.
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: d6b3fb5ab91654644a36d1e48d1a194e, type: 3}
+    txtSpeak: ...
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: "Uma cena terr\xEDvel, algo que eu gostaria de n\xE3o ter visto.\nPor
+      um momento achei que fosse algum objeto caindo na minha frente, mas o som do
+      corpo se arrebentando no ch\xE3o, o cheiro de sangue..."
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: "Quando eu menos percebi, tinha um corpo ao meu lado, j\xE1 sem vida."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
+    txtSpeak: "Sinto muito, por ter presenciado algo t\xE3o terr\xEDvel.\nViu algo
+      al\xE9m do corpo."
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: d6b3fb5ab91654644a36d1e48d1a194e, type: 3}
+    txtSpeak: "N\xE3o vi... Vi apenas o corpo.\nPelo o que me recordo..."
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: 855638f008c57564d8f5c53fa4058290, type: 3}
+    txtSpeak: "(melhor n\xE3o a for\xE7ar, ela est\xE1 abatida demais)"
+  - nomePersonagem: GATOTIVE
+    imgPersonagem: {fileID: 21300000, guid: c75190298b7804f49b02fad590471618, type: 3}
+    txtSpeak: "Obrigado pela a sua ajuda, voc\xEA ser\xE1 recompensada por isso."
+  - nomePersonagem: ISA
+    imgPersonagem: {fileID: 21300000, guid: 665d62cc993062243ab29d70a766198d, type: 3}
+    txtSpeak: ... Espero que tudo se resolva.

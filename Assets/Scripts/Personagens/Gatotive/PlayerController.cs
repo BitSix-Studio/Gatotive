@@ -33,10 +33,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (joystick.joystickVector.y != 0)
+        Vector2 direction = new Vector2(joystick.Horizontal, joystick.Vertical);
+        if (direction.y != 0)
         {
             anim.SetBool("IsWalk", true);
-            rb2D.linearVelocity = new Vector2(joystick.joystickVector.x * speedPlayer, joystick.joystickVector.y * speedPlayer).normalized;
+            rb2D.linearVelocity = new Vector2(direction.x * speedPlayer, direction.y * speedPlayer).normalized;
             anim.SetFloat("X", rb2D.linearVelocity.x);
             anim.SetFloat("Y", rb2D.linearVelocity.y);
         }
@@ -45,7 +46,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("IsWalk", false);
             rb2D.linearVelocity = Vector2.zero;
         }
-        
     }
 
     private void LateUpdate()
