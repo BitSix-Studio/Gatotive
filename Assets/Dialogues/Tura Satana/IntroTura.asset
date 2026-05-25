@@ -94,7 +94,7 @@ MonoBehaviour:
     txtSpeak: "Eu lembro de como ele era, vividamente.\nMas agora que, provavelmente,
       voc\xEA ir\xE1 me achar louca."
   - nomePersonagem: GATOTIVE
-    imgPersonagem: {fileID: 21300000, guid: b20aeb0b728e66142927107f8bab26a6, type: 3}
+    imgPersonagem: {fileID: 21300000, guid: 40f6037b6110ab44f9b9c9b4767b0cb4, type: 3}
     txtSpeak: "Eu n\xE3o acharia.\nVoc\xEA ficaria surpresa com quantas loucuras
       eu tenho que lidar por dia.\nConfie em mim."
   - nomePersonagem: TURA SATANA

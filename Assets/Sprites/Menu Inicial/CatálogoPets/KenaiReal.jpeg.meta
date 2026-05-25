@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e22d8ac1be44509448775125cfd12394
+guid: 69d9f7acf6648524f890477d76594dcc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4797616316590068867
-    second: Fundo do jornal_0
-  - first:
-      213: 1577298109939633336
-    second: Fundo do jornal_1
-  - first:
-      213: 6978639915084453893
-    second: Fundo do jornal_2
-  - first:
-      213: -6030810857149472026
-    second: Fundo do jornal_3
+      213: -2860438012711196773
+    second: KenaiReal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fundo do jornal_3
+      name: KenaiReal_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 0
-        width: 3252
-        height: 1818
+        x: 0
+        y: 434
+        width: 740
+        height: 733
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e269006a714e4ca0800000000000000
-      internalID: -6030810857149472026
+      spriteID: b97235e58cead48d0800000000000000
+      internalID: -2860438012711196773
       vertices: []
       indices: 
       edges: []
@@ -147,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: addf658f86885234297797c8640017ce
     internalID: 0
     vertices: []
     indices: 
@@ -157,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fundo do jornal_0: -4797616316590068867
-      Fundo do jornal_1: 1577298109939633336
-      Fundo do jornal_2: 6978639915084453893
-      Fundo do jornal_3: -6030810857149472026
+      KenaiReal_0: -2860438012711196773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

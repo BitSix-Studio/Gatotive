@@ -1,10 +1,6 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.UI;
-using static UnityEngine.Rendering.DebugUI;
 
 public class InteractionsNPC : MonoBehaviour
 {
@@ -56,6 +52,20 @@ public class InteractionsNPC : MonoBehaviour
     {
         if (TelaDialogo.Instance.endDialogue && NPCAtivoAtual == this)
         {
+            if (CrimeController.Instance != null) {
+                if (dialogue == CrimeController.Instance.changeDialogueKenai && NPCAtivoAtual.gameObject.name == "Kenai")
+                {
+                    CrimeController.Instance.completeCrimeScene = true;
+                }
+            }
+
+            if (SuspectFrame.Instance != null)
+            {
+                if (dialogue == SuspectFrame.Instance.dialogueChangeAkemi && NPCAtivoAtual.gameObject.name == "Akemi_NPC")
+                {
+                    OfficeController.Instance.completeOfficeScene = true;
+                }
+            }
             ChooseDialogue();
             TelaDialogo.Instance.endDialogue = false;
         }

@@ -3,27 +3,35 @@ using UnityEngine.SceneManagement;
 
 public class CrimeController : MonoBehaviour
 {
-    public GameObject[] totalNpcs;
+    [SerializeField] private GameObject[] totalNpcsWithRumor;
+    public Dialogue changeDialogueKenai;
 
-    public ButtonAction buttonAction;
+    public bool completeCrimeScene;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private ButtonAction buttonAction;
+
+    private static CrimeController instance;
+
+    private void Awake()
     {
-        
+        instance = this;
     }
+
+    public static CrimeController Instance { get { return instance; } }
 
     // Update is called once per frame
     void Update()
     {
-        if (buttonAction.contNpcs >= totalNpcs.Length)
+        if (RumorPanel.Instance.contRumors >= totalNpcsWithRumor.Length)
         {
-            SceneManager.LoadScene("Escritorio");
+            var kenai = GameObject.Find("Kenai");
+            kenai.GetComponent<InteractionsNPC>().dialogue = changeDialogueKenai;
         }
-    }
 
-    public void PauseButton()
-    {
-        Time.timeScale = 0f;
+        if (completeCrimeScene)
+        {
+            completeCrimeScene = false;
+            FadeManager.Instance.FadeToScene("Escritorio");
+        }
     }
 }

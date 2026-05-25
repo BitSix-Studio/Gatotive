@@ -9,6 +9,7 @@ TagManager:
   - Pin
   - Vitima
   - RG
+  - CadeiraEscritorio
   layers:
   - Default
   - TransparentFX

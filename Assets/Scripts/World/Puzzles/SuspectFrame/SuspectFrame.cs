@@ -9,7 +9,8 @@ public class SuspectFrame : MonoBehaviour
     [SerializeField] private Dialogue[] dialoguesContinue, dialoguesVoltar, dialoguePins; // Serve para organizar os diálogos no inspector
 
     [Header ("Diálogos de Alteração")]
-    [SerializeField] private Dialogue dialogueChangeAkemi, afterCompleteFrameDialogue;
+    [SerializeField] private Dialogue afterCompleteFrameDialogue;
+    public Dialogue dialogueChangeAkemi;
 
     private int clickOnContinue, clickOnVoltar, pinAppear, buttonsClick; // Controla a disposição dos diálogos entre acontecimentos do quadro
 

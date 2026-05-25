@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5dfb81ec321230641bcb2bda219626f2
+guid: dff1a5a6bafd44745a65809b0d4d55fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 49731790468798931
-    second: menu pixel_0
+      213: 98482561075910106
+    second: Icone432Gatotive_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu pixel_0
+      name: Icone432Gatotive_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3840
-        height: 2160
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d9dfe8cccea0b000800000000000000
-      internalID: 49731790468798931
+      spriteID: ad510851e51ed5100800000000000000
+      internalID: 98482561075910106
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menu pixel_0: 49731790468798931
+      Icone432Gatotive_0: 98482561075910106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

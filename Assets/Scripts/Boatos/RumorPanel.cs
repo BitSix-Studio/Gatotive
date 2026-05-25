@@ -11,6 +11,8 @@ public class RumorPanel : MonoBehaviour
 
     private string buttonChoose;
 
+    public int contRumors;
+
     private static RumorPanel instance;
 
     private void Awake()
@@ -26,6 +28,7 @@ public class RumorPanel : MonoBehaviour
         textRumor.text = "";
         this.gameObject.SetActive(false);
         infoReceive.SetActive(false);
+        contRumors = 0;
     }
 
     public void ExibitionRumor(RumorNPCs npc)
@@ -41,6 +44,7 @@ public class RumorPanel : MonoBehaviour
     {
         this.gameObject.SetActive(false);
         currentNPC.UpdateSuspeitometro();
+        contRumors++;
     }
 
     private void UpdateRumorPanel()

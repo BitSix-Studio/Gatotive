@@ -12764,6 +12764,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1046278865}
   - component: {fileID: 1046278864}
+  - component: {fileID: 1046278866}
+  - component: {fileID: 1046278867}
   m_Layer: 0
   m_Name: CrimeController
   m_TagString: Untagged
@@ -12783,12 +12785,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1297f739805e5ae4cb13ef1c863eccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalNpcs:
+  totalNpcsWithRumor:
   - {fileID: 1711690680}
-  - {fileID: 476952625}
-  - {fileID: 369663847}
-  - {fileID: 2138473885}
   - {fileID: 1366359697}
+  - {fileID: 476952625}
+  changeDialogueKenai: {fileID: 11400000, guid: c67bab451a1dac04d96969cc4a6487b7, type: 2}
+  completeCrimeScene: 0
   buttonAction: {fileID: 1661112169}
 --- !u!4 &1046278865
 Transform:
@@ -12805,6 +12807,200 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1046278866
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046278863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 54916eb7e8b7ada43ad64ae0d7bb5a9e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 54916eb7e8b7ada43ad64ae0d7bb5a9e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.05
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1046278867
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046278863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 80c47739200345144af6d922daacd112, type: 3}
+  m_Resource: {fileID: 8300000, guid: 80c47739200345144af6d922daacd112, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1073176495
 GameObject:
   m_ObjectHideFlags: 0
@@ -13350,6 +13546,7 @@ MonoBehaviour:
   textRumor: {fileID: 1930765773}
   infoText: {fileID: 509792025}
   infoReceive: {fileID: 756803218}
+  contRumors: 0
 --- !u!1001 &1122008650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14515,8 +14712,8 @@ MonoBehaviour:
       que ela est\xE1 traumatizada"
   - rumorText: "\" Posso afirmar que vi ele sendo empurrado l\xE1 de cima \""
     rumorTrueOrFalse: 1
-    impactOnSuspeitometro: 0
-    targetSuspeitometro: {fileID: 1366359697}
+    impactOnSuspeitometro: 2.07
+    targetSuspeitometro: {fileID: 476952625}
     receiveTrueInfo: "Acho dif\xEDcil a v\xEDtima ter subido l\xE1 em cima sozinho."
     receiveFalseInfo: Melhor investigar mais sobre a Tura, talvez ela o tenha empurrado.
   - rumorText: "\" Eu posso estar meio bebada, j\xE1 acabou meu expediente \""
@@ -14530,7 +14727,7 @@ MonoBehaviour:
   - rumorText: "\" Quando ele caiu, eu fui ver l\xE1 de cima e n\xE3o tinha mais
       ningu\xE9m na rua \""
     rumorTrueOrFalse: 0
-    impactOnSuspeitometro: 0
+    impactOnSuspeitometro: 3.02
     targetSuspeitometro: {fileID: 1711690680}
     receiveTrueInfo: "Por causa dos toldos e placas ao redor, provavelmente ela nem
       notou a Isa passando, at\xE9 porque, ela estava assustada."
@@ -16459,6 +16656,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1773306937}
     m_Modifications:
+    - target: {fileID: 369001301010332102, guid: 15bdbd7fa6efded449f184a53c192054, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.539978
+      objectReference: {fileID: 0}
     - target: {fileID: 1546543293507517262, guid: 15bdbd7fa6efded449f184a53c192054, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -17177,7 +17378,7 @@ MonoBehaviour:
       por milho de pipoca... \""
     rumorTrueOrFalse: 1
     impactOnSuspeitometro: 3.15
-    targetSuspeitometro: {fileID: 0}
+    targetSuspeitometro: {fileID: 1711690680}
     receiveTrueInfo: "Afinal ele era o pipoqueiro do Cinema, voc\xEA n\xE3o vai encontrar
       nada l\xE1, exceto por um bom t\xEDtulo: \"Expresso Patinhas\""
     receiveFalseInfo: Um pouco estranho ele ir comprar milho, achava que o cinema

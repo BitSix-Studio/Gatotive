@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,8 +11,6 @@ public class ButtonAction : MonoBehaviour
 
     private RumorNPCs npcAtual;
 
-    public int contNpcs;
-
     private void OnEnable()
     {
         InteractionsNPC.npcAtivo += AdicionarChamada;
@@ -24,10 +21,6 @@ public class ButtonAction : MonoBehaviour
     {
         InteractionsNPC.npcAtivo -= AdicionarChamada;
         InteractionObjects.objAtivo -= AdicionarChamada;
-    }
-    private void Start()
-    {
-        contNpcs = 0;
     }
 
     void AdicionarChamada(string action, bool hasDialogue, Dialogue dialogue)
@@ -47,6 +40,12 @@ public class ButtonAction : MonoBehaviour
         {
             button.onClick.AddListener(() => CrimeScene(action));
         }
+        if (action == "CadeiraEscritorio")
+        {
+            if (OfficeController.Instance.completeOfficeScene) {
+                button.onClick.AddListener(() => FinalDemo());
+            }
+        }
     }
 
     void AdicionarChamada(GameObject actor, bool hasDialogue, bool rumor, Dialogue dialogue)
@@ -55,8 +54,6 @@ public class ButtonAction : MonoBehaviour
 
         if (actor.CompareTag("Npc"))
         {
-            contNpcs++;
-
             dialogueNpc = dialogue;
             npcAtual = actor.GetComponent<RumorNPCs>();
             button.onClick.AddListener(() => AcionarNPC(hasDialogue, rumor));
@@ -103,5 +100,11 @@ public class ButtonAction : MonoBehaviour
     void CrimeScene(string tag)
     {
         ItensCrimePanel.Instance.ItemExibition(tag);
+    }
+
+    void FinalDemo()
+    {
+        if(ButtonsMenu.Instance != null)
+            ButtonsMenu.Instance.Credits();
     }
 }
