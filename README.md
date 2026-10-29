@@ -5,7 +5,7 @@
 
 ![Unity](https://img.shields.io/badge/Unity-6.3%20LTS-black?style=for-the-badge&logo=unity)
 ![Status](https://img.shields.io/badge/Status-Concluído-darkgreen?style=for-the-badge)
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-royalblue?style=for-the-badge)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-All%20Rights%20Reserved-royalblue?style=for-the-badge)
 
 ---
 
@@ -48,10 +48,10 @@ O objetivo central do jogo é gerar transformação e reflexão social através 
 
 | Screenshot | Descrição da Mecânica |
 | :---: | :--- |
-| ![Cena de Diálogo](link-para-imagem-1.png) | **[Mecânica 1]:** Diálogos com os personagens do cenário. |
-| ![Tela de Decisão](link-para-imagem-2.png) | **[Mecânica 2]:** Decisão de confiar ou duvidar das informações coletadas para cada personagem. |
-| ![Tela de Investigação](Assets/Sprites/Puzzles/CrimeScene/CrimeSceneAce.png) | **[Mecânica 3]:** Inspecionar elementos da cena do crime. |
-| ![Tela do Quadro Investigativo](link-para-imagem-4.png) | **[Mecânica 4]:** Montar um quadro de investigação para colocar as informações coletadas em ordem. |
+| <img src="Screenshots/DialogoScreenshot.png" alt="Cena de Diálogo" width="400"> | **Mecânica 1:** Diálogos com os personagens do cenário. |
+| <img src="Screenshots/TelaDecisaoScreenshot.png" alt="Tela de Decisão" width="400"> | **Mecânica 2:** Decisão de confiar ou duvidar das informações coletadas para cada personagem. |
+| <img src="Assets/Sprites/Puzzles/CrimeScene/CrimeSceneAce.png" alt="Tela de Investigação" width="400"> | **Mecânica 3:** Inspecionar elementos da cena do crime. |
+| <img src="Screenshots/QuadroInvestigativoScreenshot.png" alt="Tela do Quadro Investigativo" width="400"> | **Mecânica 4:** Montar um quadro de investigação para colocar as informações coletadas em ordem. |
 
 ---
 
@@ -86,17 +86,18 @@ O objetivo central do jogo é gerar transformação e reflexão social através 
 ## 👥 Equipe e Orientação
 
 ### 👨‍🎓 Desenvolvedores
-Tiago Rodrigues Chaves - Game Designer & Programador & UI & Sound Designer - GitHub | LinkedIn
-
-Luana Cristini Araujo Franco - Game Designer & Artista Pixel Art & UI/UX & VFX & Roteirista - GitHub | LinkedIn
-
-Murilo Pereira Lopes Silva - Animador 2D & Video Designer - GitHub | LinkedIn
-
-Débora Maria Gurgel do Nascimento - Artista Pixel Art - GitHub | LinkedIn
-
-Max Magalhães Mosso - Ilustrador Digital - GitHub | LinkedIn
+- Tiago Rodrigues Chaves - Game Designer & Programador & UI & Sound Designer - GitHub | LinkedIn
+- Luana Cristini Araujo Franco - Game Designer & Artista Pixel Art & UI/UX & VFX & Roteirista - GitHub | LinkedIn
+- Murilo Pereira Lopes Silva - Animador 2D & Video Designer - GitHub | LinkedIn
+- Débora Maria Gurgel do Nascimento - Artista Pixel Art - GitHub | LinkedIn
+- Max Magalhães Mosso - Ilustrador Digital - GitHub | LinkedIn
 
 ### 👩‍🏫 Orientação Acadêmica
-Prof. Ariel Emanuel Sebastian Campos - Orientador do Projeto Integrador
+- Prof. Ariel Emanuel Sebastian Campos - Orientador do Projeto Integrador
 
 ---
+
+## 📄 Licença
+Este projeto é distribuído sob a licença All Rights Reserved. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+Desenvolvido com foco no impacto comunitário e na inovação social.
