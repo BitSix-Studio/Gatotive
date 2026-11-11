@@ -11,9 +11,9 @@
 
 ## 📌 Sobre o Projeto
 
-Gatotive é um jogo com temática Noir, em pixel art, focado em conscientização ambiental relacionado a práticas de reprodução abusivas em animais. O projeto visa abordar exploração comercial, cruzamentos irresponsáveis e fraudes envolvendo animais de raça, utilizando mecânicas interativas para engajar e educar o jogador.
+**Gatotive** é um jogo com temática **Noir, em pixel art**, focado em **conscientização** ambiental relacionado a práticas de reprodução **abusivas em animais**. O projeto visa abordar **exploração comercial, cruzamentos irresponsáveis e fraudes envolvendo animais de raça**, utilizando mecânicas interativas para engajar e educar o jogador.
 
-O jogador tem a visão de Kuro, o detetive da cidade, que precisa resolver o mistério de um provável falso assassinato, investigando alguns dos suspeitos e resolvendo enigmas.
+O jogador tem a visão de **Kuro, o detetive da cidade**, que precisa resolver o **mistério** de um provável falso assassinato, investigando alguns dos **suspeitos e resolvendo enigmas**.
 
 ### 🌟 Destaques
 - **Tema Principal:** Educação Ambiental e Medicina Veterinária
@@ -65,6 +65,14 @@ O objetivo central do jogo é gerar transformação e reflexão social através 
 
 ---
 
+## 🌐 Jogar a Versão Compilada (Build)
+
+**Link para jogar online (WebGL / itch.io):** [Clique aqui para Jogar!](https://bitsix.itch.io/gatotive)
+
+**Download do executável (Android):** [Baixar na seção Releases](https://github.com/BitSix-Studio/Gatotive/releases/tag/V1.0)
+
+---
+
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
@@ -86,11 +94,11 @@ O objetivo central do jogo é gerar transformação e reflexão social através 
 ## 👥 Equipe e Orientação
 
 ### 👨‍🎓 Desenvolvedores
-- Tiago Rodrigues Chaves - Game Designer & Programador & UI & Sound Designer - GitHub | LinkedIn
-- Luana Cristini Araujo Franco - Game Designer & Artista Pixel Art & UI/UX & VFX & Roteirista - GitHub | LinkedIn
-- Murilo Pereira Lopes Silva - Animador 2D & Video Designer - GitHub | LinkedIn
-- Débora Maria Gurgel do Nascimento - Artista Pixel Art - GitHub | LinkedIn
-- Max Magalhães Mosso - Ilustrador Digital - GitHub | LinkedIn
+- **Tiago Rodrigues Chaves** - Game Designer & Programador & UI & Sound Designer - [GitHub](https://github.com/TuRChess) | [LinkedIn](https://www.linkedin.com/in/tiagorodchaves/)
+- **Luana Cristini Araujo Franco** - Game Designer & Artista Pixel Art & UI/UX & VFX & Roteirista - [GitHub](https://github.com/Aristoquete) | [Instagram](https://www.instagram.com/aristoquete/)
+- **Murilo Pereira Lopes Silva** - Animador 2D & Video Designer - [GitHub](https://github.com/SallyxZ)
+- **Débora Maria Gurgel do Nascimento** - Artista Pixel Art - [GitHub](https://github.com/hellodeb-dev) | [Instagram](https://www.instagram.com/debies3d/)
+- **Max (Elle) Magalhães Mosso** - Ilustrador Digital - [GitHub](https://github.com/bedelless) | [LinkedIn](https://www.linkedin.com/in/leticiamosso/)
 
 ### 👩‍🏫 Orientação Acadêmica
 - Prof. Ariel Emanuel Sebastian Campos - Orientador do Projeto Integrador
